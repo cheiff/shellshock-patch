@@ -22,4 +22,5 @@ echo "deb-src http://http.debian.net/debian/ squeeze-lts main contrib non-free" 
 apt-get update
 apt-get install bash -y
 
-echo "Run a new bash shell and execute check.sh again"
+echo "Checking again, should give an error "
+bash check.sh
