@@ -22,7 +22,7 @@ if vulnerable, execute
 bash patch.sh
 ```
 
-You can run this for interactive version. 
+For interactive version. 
 
 ```
 bash patch.sh i 
