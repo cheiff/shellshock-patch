@@ -6,6 +6,9 @@ if [ $# = 1 ]; then
   bash check.sh
   echo "Continue and apply the patch (y/n)?"
   read CONTINUE
+  if [ $CONTINUE != "n" ]; then
+    exit
+  fi
 else
   cat /etc/issue
   bash check.sh
